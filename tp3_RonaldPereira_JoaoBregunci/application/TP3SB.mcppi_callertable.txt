@@ -1,0 +1,19 @@
+main
+	__CC2DW
+		____DoICP
+	lcd_initt
+		atraso_ms
+		lcd_cmdd
+			lcd_wr
+			atraso_ms
+	lcd_cmdd
+		lcd_wr
+		atraso_ms
+	lcd_str
+		lcd_dat
+			lcd_wr
+			atraso_ms
+	IntToStr
+		WordToStr
+			Div_16X16_U
+interrupt
